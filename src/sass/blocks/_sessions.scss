@@ -1,0 +1,52 @@
+.sessions {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 416px);
+    grid-template-rows: repeat(2, 258px);
+    grid-auto-rows: 258px;
+    gap: 24px;
+  }
+  &__photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 30px 40px;
+    background-image: url(../../img/bg/photo4.png);
+  }
+  &__box {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__marker-l {
+    width: 28px;
+    height: 14px;
+    border-radius: 0 50px;
+    background-color: $main-color;
+    margin-right: 45px;
+  }
+  &__marker-r {
+    width: 28px;
+    height: 14px;
+    border-radius: 50px 0;
+    background-color: $main-color;
+    margin-left: 45px;
+  }
+  
+}
+#standart-style {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(../../img/bg/photo_standart.png);
+  width: 416px;
+  height: 540px;
+  padding: 0 0 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#for_pregnant {
+  grid-column: 2 / 3;
+}

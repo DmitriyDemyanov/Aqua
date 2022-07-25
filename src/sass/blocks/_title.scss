@@ -1,0 +1,51 @@
+.title {
+  &_fz10 {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 140%;
+    color: #fff;
+  }
+  &_fz14 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #fff;
+  }
+  &_fz16 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+
+  }
+  &_fz20 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #fff;
+  }
+  &_fz24 {
+    font-family: 'El Messiri';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #fff;
+  }
+  &_fz42 {
+    font-family: 'El Messiri';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    color: #fff;
+  }
+  &_fz64 {
+    padding-top: 40px;
+    font-family: 'El Messiri';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    color: #fff;
+    margin-bottom: 0;
+  }
+}

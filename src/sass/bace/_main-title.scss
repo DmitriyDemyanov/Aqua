@@ -1,0 +1,23 @@
+.main-title {
+  &__box {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__marker-l {
+    width: 28px;
+    height: 14px;
+    border-radius: 0 50px;
+    background-color: $main-color;
+    margin-right: 45px;
+  }
+  &__marker-r {
+    width: 28px;
+    height: 14px;
+    border-radius: 50px 0;
+    background-color: $main-color;
+    margin-left: 45px;
+  }
+}

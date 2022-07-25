@@ -1,0 +1,44 @@
+.carousel {
+  &__wrapper {
+    display: flex;
+    align-items:center;
+  }
+  &__ticket {
+    width: 500px;
+    height: 276px;
+    background-color: $main-color;
+    border-radius: 10px;
+    padding: 40px 45px;
+    opacity: 0.3;
+    &-activ {
+      width: 636px;
+      height: 350px;
+      padding: 50px 55px;
+      margin: 0 50px;
+      background-color: $main-color;
+      border-radius: 10px;
+      
+    }
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+    padding-top: 20px;
+    &-smoll {
+      padding-top: 15px;
+    }
+  }
+  .items {
+    height: 16px;
+
+  }
+  .item {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 10px;
+  } 
+}
