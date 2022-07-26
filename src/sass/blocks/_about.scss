@@ -1,0 +1,15 @@
+.about {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 526px 1fr;
+        grid-template-rows: 365px 365px;
+        gap: 100px 24px;
+        align-items:center;
+        
+
+    }
+    &__text {
+        font-weight: 300;
+        padding: 30px 60px 15px 0;
+    }
+}

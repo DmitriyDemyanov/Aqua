@@ -30,11 +30,14 @@
       padding-top: 15px;
     }
   }
-  .items {
+  &__items {
     height: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 
   }
-  .item {
+  &__item {
     width: 16px;
     height: 16px;
     background-color: #fff;
