@@ -32,9 +32,9 @@
   }
   &__items {
     height: 16px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
-    margin-top: 60px;
 
   }
   &__item {
@@ -43,5 +43,9 @@
     background-color: #fff;
     border-radius: 3px;
     margin: 0 10px;
+    opacity: 0.4;
+    &:hover {
+      opacity: 1;
+    }
   } 
 }
