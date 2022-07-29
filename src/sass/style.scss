@@ -13,6 +13,7 @@
 @import 'blocks/sessions';
 @import 'blocks/carousel';
 @import 'blocks/about';
+@import 'blocks/price';
 
 
 *  {
@@ -28,6 +29,10 @@ body {
 .container {
   width: 1296px;
   margin: 0 auto;
+  &__xs {
+    width: 1076px;
+    margin: 0 auto;
+  }
   &__xl {
     width: 1736px;
     margin: 0 auto;

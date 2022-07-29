@@ -1,8 +1,8 @@
 .about {
     &__wrapper {
         display: grid;
-        grid-template-columns: 526px 1fr;
-        grid-template-rows: 365px 365px;
+        grid-template-columns: 526px 526px;
+        grid-template-rows: 365px 400px;
         gap: 100px 24px;
         align-items:center;
         
@@ -10,6 +10,26 @@
     }
     &__text {
         font-weight: 300;
-        padding: 30px 60px 15px 0;
+        padding-top: 30px;
+    }
+    &__layout {
+        padding-right: 50px;
+        
+    
+        &-right {
+        padding-left: 50px;
+        }
+    }
+    &__photo {
+        &-height {
+            height: 400px;
+            
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
     }
 }
